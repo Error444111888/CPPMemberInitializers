@@ -6,7 +6,7 @@ using namespace std;
 
 
 TheReasonOfBitcoin::TheReasonOfBitcoin(int x, int y)
-	: BTCint(x), BTCConstInt(y)
+	: BTCint(x), BTCConstInt(y) // <<< The initializer goes between () and {}
 {
 }
 
